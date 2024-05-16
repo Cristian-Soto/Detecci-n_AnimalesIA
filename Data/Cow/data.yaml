@@ -1,0 +1,7 @@
+train: D:\Detecci-n_AnimalesIA\Data\Cow\train\
+val: D:\Detecci-n_AnimalesIA\Data\Cow\valid\
+test: D:\Detecci-n_AnimalesIA\Data\Cow\test\
+
+nc: 1
+names: ['cow']
+
