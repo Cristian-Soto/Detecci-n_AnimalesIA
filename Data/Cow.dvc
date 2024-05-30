@@ -1,0 +1,6 @@
+outs:
+- md5: d10128db61af387b2aacc7f0311559de.dir
+  size: 198141736
+  nfiles: 5787
+  hash: md5
+  path: Cow
