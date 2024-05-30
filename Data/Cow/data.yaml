@@ -1,7 +1,0 @@
-train: D:\Deteccion_AnimalesIA\Data\Cow\train\
-val: D:\Deteccion_AnimalesIA\Data\Cow\valid\
-test: D:\Deteccion_AnimalesIA\Data\Cow\test\
-
-nc: 1
-names: ['cow']
-
