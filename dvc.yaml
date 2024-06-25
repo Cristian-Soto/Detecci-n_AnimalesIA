@@ -4,6 +4,6 @@ stages:
     deps:
       - Data/Cow
       - config.yaml
-      - train_custom.py
+      - train.py
     outs:
       - runs/segment/train/weights/best.pt
