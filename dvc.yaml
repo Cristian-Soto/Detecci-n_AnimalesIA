@@ -1,6 +1,6 @@
 stages:
   train_cows:
-    cmd: python train_custom.py
+    cmd: python train.py
     deps:
       - Data/Cow
       - config.yaml
