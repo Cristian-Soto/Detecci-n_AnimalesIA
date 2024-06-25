@@ -1,7 +1,9 @@
 stages:
   train_cows:
-    cmd: yolo task=segment mode=train epochs=1 data=Data/Cow/data.yaml model=yolov8m-seg.pt imgsz=640 batch=2
+    cmd: python train_custom.py
     deps:
       - Data/Cow
+      - config.yaml
+      - train_custom.py
     outs:
       - runs/segment/train/weights/best.pt
