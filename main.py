@@ -28,7 +28,7 @@ while True:
     # Verificar si se detectó una vaca
     for result in resultados:
         for cls in result.cls:
-            if cls == 'cow':  # Asumiendo que 'vaca' es la clase en tu modelo
+            if cls == 'cow':
                 send_telegram_message('¡Se detectó una vaca!')
 
     # Mostramos resultados
